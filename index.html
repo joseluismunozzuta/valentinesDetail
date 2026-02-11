@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín Button</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="m-3 card bg-white w-md shadow-2xl shadow-gray-900 p-8 rounded-xl">
+        <div class="carousel w-full rounded-md">
+            <div id="item1" class="carousel-item w-full">
+                <img src="../assets/img/img1.jpeg" class="w-full" />
+            </div>
+            <div id="item2" class="carousel-item w-full">
+                <img src="../assets/img/img2.jpeg" class="w-full" />
+            </div>
+            <div id="item3" class="carousel-item w-full">
+                <img src="../assets/img/img3.jpeg" class="w-full" />
+            </div>
+            <div id="item4" class="carousel-item w-full">
+                <img src="../assets/img/img4.jpeg" class="w-full" />
+            </div>
+            <div id="item5" class="carousel-item w-full">
+                <img src="../assets/img/img5.jpeg" class="w-full" />
+            </div>
+            <div id="item6" class="carousel-item w-full">
+                <img src="../assets/img/img6.jpeg" class="w-full" />
+            </div>
+            <div id="item7" class="carousel-item w-full">
+                <img src="../assets/img/img7.jpeg" class="w-full" />
+            </div>
+            <div id="item8" class="carousel-item w-full">
+                <img src="../assets/img/img8.jpeg" class="w-full" />
+            </div>
+            <div id="item9" class="carousel-item w-full">
+                <img src="../assets/img/img9.jpeg" class="w-full" />
+            </div>
+        </div>
+        <div class="card-body">
+            <h1 class="text-2xl text-center">¿Quieres ser mi San Valentín?❤️</h1>
+            <p id="svmessage" class="hidden text-xl text-center">Ya sabía que querías😎💕</p>
+            <img id="pika2" class="hidden mask mask-squircle w-40 mx-auto"
+                src="../assets/img/pika2.gif"/>
+            <div class="card-actions justify-center relative">
+                <button id="yesbtn" class="z-10 btn-xl btn btn-outline btn-secondary" onclick="handleYes()">SÍ❤️</button>
+                <button class="z-0 no-btn btn-xl btn btn-outline" onclick="handleNo()">No😒</button>
+            </div>
+        </div>
+        <div class="mx-auto">
+            <img id="pika" class="hidden mask mask-squircle w-40"
+                src="../assets/img/pika.gif"/>
+        </div>
+    </div>
+</body>
+
+</html>
